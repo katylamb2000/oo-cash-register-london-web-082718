@@ -5,16 +5,15 @@ class CashRegister
   
 def initialize (total)
  @total = 0
- @discount = ()
+ @discount
   end
   
   
 
 
-def total (total, price)
- @@total << self.price
- 
-  end
+def total
+ @total
+end
 
 
 def apply_discount 
