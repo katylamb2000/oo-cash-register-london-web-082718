@@ -4,8 +4,8 @@ class CashRegister
   
   
 def initialize (total = 0)
- @total = total * @discount
-# @discount = 0.2
+  @total = total * @discount
+  @employee_discount = 0.2
   end
   
   
@@ -20,7 +20,11 @@ def apply_discount
  discounted = @total * @discount
 end
 
-def add_item
+def item
+  item = []
 end
+
+def void_last_transaction
+  item.last.remove
 
 end
