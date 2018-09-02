@@ -36,8 +36,8 @@ def items
   return @items
 end
 
-def void_last_transaction
-  @total -= @transactions.last[1]
+def void_last_transaction (transactions)
+  @total -= transactions.last[1]
   
   @items.pop
   
