@@ -11,7 +11,7 @@ def initialize (total)
   
 
 
-def total
+def total (total)
  @total
 end
 
