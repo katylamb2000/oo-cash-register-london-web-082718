@@ -21,7 +21,7 @@ def apply_discount
   @discount = 0.8
   @total *= @discount
  if discount > 0
-   "After the discount, the total comes to $#{total.}."
+   "After the discount, the total comes to $#{total.int}."
   else
  "There is no discount to apply."
 end
