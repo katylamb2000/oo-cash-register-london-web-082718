@@ -24,7 +24,6 @@ end
 end
 
 def apply_discount 
-  # @discount = 0.8
   self.total = (total * ((100.0 - discount.to_f)/100)).to_i
  if @discount == 0
    "There is no discount to apply."
