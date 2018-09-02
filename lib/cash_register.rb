@@ -17,7 +17,7 @@ end
 
 
 def apply_discount 
- @total * @discount
+ discounted = @total * @discount
 end
 
 def add_item
