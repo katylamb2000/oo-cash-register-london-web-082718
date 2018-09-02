@@ -19,7 +19,7 @@ def add_item (title, price, quantity = 1)
   quantity.times do
   @items << title
 end
-self.last_transaction = amount * quantity
+last_transaction = amount * quantity
 end
 
 def apply_discount 
@@ -38,7 +38,7 @@ end
 
 def void_last_transaction
   @items.pop
-  @total -= self.last_transaction
+  @total -= last_transaction
   return @items
 end
 end
