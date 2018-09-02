@@ -35,7 +35,7 @@ def items
   return @items
 end
 
-def void_last_transaction
+def void_last_transaction (item)
   @items.last.delete
 end
 end
