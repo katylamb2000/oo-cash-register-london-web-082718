@@ -25,7 +25,7 @@ end
 
 def apply_discount 
   # @discount = 0.8
-  @total *= @discount
+  @total /= @discount
  if @discount == 0
    "There is no discount to apply."
    else
