@@ -8,11 +8,8 @@ def initialize (discount = 0)
   @discount = discount
   end
   
-  
-
-
-def total (total)
- @total
+def total
+ return @total
 end
 
 def add_item (title, price)
