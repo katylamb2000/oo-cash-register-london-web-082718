@@ -13,7 +13,7 @@ def total
  return @total
 end
 
-def add_item (title, price, quantity = 1)
+def add_item (title, price, quantity=1)
   @transactions = []
   @transactions << [title, (price * quantity = 1)]
   @total += (price * quantity)
