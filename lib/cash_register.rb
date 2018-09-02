@@ -36,6 +36,6 @@ def items
 end
 
 def void_last_transaction
-  @item.last.delete
+  @items.last.delete
 end
 end
