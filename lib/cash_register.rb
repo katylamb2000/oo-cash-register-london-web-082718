@@ -26,5 +26,5 @@ end
 
 def void_last_transaction
   item.last.remove
-
+end
 end
