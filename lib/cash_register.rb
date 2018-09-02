@@ -14,8 +14,8 @@ def total
 end
 
 def add_item (title, price, quantity = 1)
-  transactions = []
-  transactions << [title, (price * quantity = 1)]
+  @transactions = []
+  @transactions << [title, (price * quantity = 1)]
   @total += (price * quantity)
   quantity.times do
   @items << title
@@ -37,7 +37,7 @@ def items
 end
 
 def void_last_transaction
-  @total -= transactions.last[1]
+  @total -= @transactions.last[1]
   
   @items.pop
   
