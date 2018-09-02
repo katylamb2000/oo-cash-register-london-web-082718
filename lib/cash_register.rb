@@ -18,7 +18,7 @@ def add_item (title, price, quantity = 1)
 end
 
 def apply_discount 
-  @discount = 20
+  @discount = 5
   @total /= @discount
  if discount > 0
    "After the discount, the total comes to $#{total}."
