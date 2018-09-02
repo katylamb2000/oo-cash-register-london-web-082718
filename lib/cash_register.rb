@@ -37,6 +37,7 @@ end
 
 def void_last_transaction
   @items.pop
+  @total -+ pop.price
   return @items
 end
 end
