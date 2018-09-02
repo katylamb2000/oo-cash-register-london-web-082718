@@ -28,7 +28,6 @@ def apply_discount
   else
  "There is no discount to apply."
 end
-end
 
 def items
   return @items
@@ -38,4 +37,4 @@ def void_last_transaction
   @items.pop
   return @items
 end
-
+end
