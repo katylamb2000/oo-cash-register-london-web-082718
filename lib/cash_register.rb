@@ -29,7 +29,8 @@ end
 end
 
 def item
-  item = []
+  @item = []
+  @item
 end
 
 def void_last_transaction
