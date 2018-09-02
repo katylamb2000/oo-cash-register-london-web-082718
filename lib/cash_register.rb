@@ -32,7 +32,7 @@ end
 end
 
 def items
-  @item
+  return @items
 end
 
 def void_last_transaction
