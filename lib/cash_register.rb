@@ -19,7 +19,7 @@ end
 
 def apply_discount 
   @discount = 0.2
-  @total * @discount
+  @total *= @discount
  if discount > 0
    "After the discount, the total comes to $#{total}."
   else
