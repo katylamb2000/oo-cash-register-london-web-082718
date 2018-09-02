@@ -16,7 +16,6 @@ end
 def add_item (title, price, quantity = 1)
   @total += (price * quantity)
   @quantity = quantity
-  quantity.times do
   @items << [title, price, quantity]
 end
 end
