@@ -31,11 +31,10 @@ end
 end
 
 def items
-  @items = []
   @item
 end
 
 def void_last_transaction
-  @item.last.remove
+  @item.last.delete
 end
 end
