@@ -14,8 +14,8 @@ def total
 end
 
 def add_item (title, price, quantity=1)
-  # @transactions = []
-  # @transactions << [title, (price * quantity = 1)]
+  @transactions = []
+  @transactions << [title, (price * quantity)]
   @total += (price * quantity)
   
   quantity.times do
