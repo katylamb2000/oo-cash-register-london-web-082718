@@ -19,8 +19,10 @@ end
 
 def apply_discount 
  if discount > 0
-   "After the discount, the total comes to "
+   "After the discount, the total comes to #{total}."
+  else
  "There is no discount to apply."
+end
 end
 
 def item
