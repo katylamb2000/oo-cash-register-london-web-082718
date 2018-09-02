@@ -15,7 +15,7 @@ end
 def add_item (title, price, quantity = 1)
   @total += (price * quantity)
   @quantity = quantity
-  @items << self
+  @items << title
 end
 
 def apply_discount 
