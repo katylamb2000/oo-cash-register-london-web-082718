@@ -19,6 +19,7 @@ end
 
 def apply_discount 
  discounted = @total * @discount
+ "There is no discount to apply."
 end
 
 def item
